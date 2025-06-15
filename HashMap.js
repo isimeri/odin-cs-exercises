@@ -170,26 +170,26 @@ maMap.set('ice cream', 'white')
 maMap.set('jacket', 'blue')
 maMap.set('kite', 'pink')
 maMap.set('lion', 'golden')
-maMap.set('ligma', 'balls');
-maMap.set('barock', 'oshama');
+maMap.set('cool', 'hat');
+maMap.set('orange', 'boy');
 maMap.set('cringe', 'deadly');
-maMap.set('yo', 'mama');
+maMap.set('yo', 'ghurt');
 maMap.set('joe', 'mama');
-maMap.set('what', 'thefuck');
-maMap.set('mother', 'fucker');
-maMap.set('balls', 'ack');
+maMap.set('what', 'islove');
+maMap.set('baby', 'donthurtme');
+maMap.set('skidaddle', 'skidoodle');
 
 maMap.test();
 maMap.remove("lion");
-// maMap.test();
+
 console.log(maMap.has('banana'));
 console.log(maMap.has('cringe'));
 console.log(maMap.remove('cringe'));
 maMap.set('banana', 'huge');
 maMap.test();
-// console.log(maMap.length());
-// console.log(maMap.keys());
-// console.log(maMap.values());
-// console.log(maMap.entries());
+console.log(maMap.length());
+console.log(maMap.keys());
+console.log(maMap.values());
+console.log(maMap.entries());
 maMap.clear();
 maMap.test();
